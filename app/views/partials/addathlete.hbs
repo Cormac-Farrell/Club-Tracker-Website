@@ -1,0 +1,21 @@
+<form class="ui stacked segment form" action="/club/{{club.id}}/addathlete" method="POST">
+  <div class="four fields">
+    <div class="field">
+      <label>Name</label>
+      <input placeholder="Name" type="text" name="name" autofocus required>
+    </div>
+    <div class="field">
+      <label>Age</label>
+      <input placeholder="Age" type="text" name="age" required>
+    </div>
+    <div class="field">
+      <label>Event</label>
+      <input placeholder="Event" type="text" name="event" required>
+    </div>
+    <div class="field">
+      <label>medals</label>
+      <input placeholder="Medals" type="text" name="medals" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Athlete</button>
+</form>

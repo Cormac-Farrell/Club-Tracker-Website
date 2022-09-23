@@ -1,0 +1,69 @@
+{{> menu}}
+
+<section class="ui two column grid segment">
+  <div class="ui column">
+    <h1 class="ui header">
+      Welcome to the Club Tracker App, {{fullname}}!
+    </h1>
+      <p>
+        This app will allow People to track a clubs members and medal count while also viewing their rating by others.
+      </p>
+      <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Read more <i class="arrow circle right icon"></i>
+        </button>
+        <button class="ui green button" onclick="alert('Thanks! You\'re okay too')">
+          Like it? <i class="thumbs up icon"></i>
+        </button>
+        <button class="ui red button" onclick="welcomeUser()">
+          Who are you? <i class="user icon"></i>
+        </button>
+      </div>
+      <div id="readmore" class="ui message">
+        <p>
+          There are a number of usefull features provided by this app
+        </p>  
+      </div>
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+    
+      <div class="ui divider"></div>
+    
+      <h3 class="ui center aligned header">The Club Tracker app allows users too view:</h3>
+      <div class="ui two statistics">
+        <div class="ui huge statistic">
+          <div class="value">
+            {{totalclub}}
+          </div>
+          <div class="label">
+            Clubs
+          </div>
+        </div>
+        <div class="ui huge statistic">
+          <div class="value">
+            {{totalathlete}}
+          </div>
+          <div class="label">
+            Athletes
+          </div>
+        </div>
+    </div>
+
+  </div>
+  
+  <div class="ui column">
+    <div class="ui grid">
+      <div class="ui eight wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/0ea7aa72-38ac-48ea-b874-ccb696bd438e%2Fdownload.png?v=1620078585816">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/0ea7aa72-38ac-48ea-b874-ccb696bd438e%2FKilkennycity.png?v=1620078592987">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/0ea7aa72-38ac-48ea-b874-ccb696bd438e%2Fathletics_logo.png?v=1620078602065">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/0ea7aa72-38ac-48ea-b874-ccb696bd438e%2F12179009_10207764131812054_169640094_n_21da95a8-93f7-4e5d-b1b3-277774edd9e6_large.jpg?v=1620078608707">
+      </div>
+    </div>
+  </div>
+</section>

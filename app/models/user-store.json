@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "Johnsmith@gmail.com",
+      "password": "123456789",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "Jenny",
+      "lastName": "Samson",
+      "email": "JennySamson@gmail.com",
+      "password": "987654321",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Johnny",
+      "lastName": "Smithy",
+      "email": "johnnySmithy\"gmail.com",
+      "password": "123456789",
+      "id": "39467658-fdce-47d2-8355-d04489f36c8a"
+    },
+    {
+      "firstName": "Cormac",
+      "lastName": "Farrell",
+      "email": "cormackfarrell@gmail.com",
+      "password": "0123456789",
+      "id": "be15f5e1-d04c-4b57-9d5a-f6a17e105bae"
+    },
+    {
+      "firstName": "Cormac",
+      "lastName": "Farrell",
+      "email": "cormackfarrell@gmail.com",
+      "password": "00000000",
+      "id": "fa3d4c9e-2043-4228-a9a4-561ec4f7b4a0"
+    },
+    {
+      "firstName": "Cormac",
+      "lastName": "Farrell",
+      "email": "theCormacFarrell@gmail.com",
+      "password": "123456789",
+      "id": "1eb3e402-bcb1-4c69-84c3-fadb34002f00"
+    },
+    {
+      "firstName": "Jeff",
+      "lastName": "Joe",
+      "email": "JeffJoe@gmail.com",
+      "password": "123456789",
+      "id": "f57f5443-c9b6-425d-9344-25de7052d810"
+    },
+    {
+      "firstName": "Rosanne",
+      "lastName": "Birney",
+      "email": "rosanne@gmail.com",
+      "password": "secret",
+      "id": "18635289-a585-498b-abcc-a55de1430600"
+    },
+    {
+      "firstName": "Cormac",
+      "lastName": "Farrell",
+      "email": "cormackfarrell@gmail.com",
+      "password": "Cormac",
+      "id": "56d094f6-25b2-4514-9106-aa1a9f94f199"
+    },
+    {
+      "firstName": "Johnny",
+      "lastName": "Smithy",
+      "email": "johnnySmithy@gmail.com",
+      "password": "123456",
+      "id": "952b98a7-7683-4fa5-b655-1fbaa9ba40f0"
+    },
+    {
+      "firstName": "Cormac",
+      "lastName": "Farrell",
+      "email": "cormackfarrell@gmail.com",
+      "password": "123456",
+      "id": "1763b73b-befb-4354-acf4-e8cb9ca9b40c"
+    },
+    {
+      "firstName": "Cormac",
+      "lastName": "Farrell",
+      "email": "cormackfarrell@gmail.com",
+      "password": "Cormac1345",
+      "id": "f42a69f3-ed3e-48f1-b8c7-f7951e2b8bc3"
+    }
+  ]
+}
